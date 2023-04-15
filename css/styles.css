@@ -1,0 +1,176 @@
+body{
+    font-family: "Montserrat";
+}
+
+.icon{
+    color: #fff;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;    
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 5.5 rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+}
+
+
+/* download buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title-img */
+
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* features */
+.icon-col{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon-col:hover{
+    color: #ff4c68;
+}
+
+.icon-heading{
+    font-size: 1.7rem;
+}
+.features-p{
+    font-family: "Montserrat";
+    color:#8f8f8f;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;   
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+     
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+
+/* call of action */
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    color: #fff;
+    height: 350px;
+    text-align: center;
+    padding-top: 110px;
+}
+.cta-font{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+
+/* footer */
+#footer{
+    height: 250px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.cpy{
+    color: #8f8f8f;
+    font-size: small;
+    padding-top: 10px;
+}
+.social-icons{
+    margin: 20px 10px;
+    cursor: pointer;
+}
+/* media query */
+
+@media(max-width:1028px){
+
+#title{
+    text-align: center;
+}
+.title-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+}
+}
